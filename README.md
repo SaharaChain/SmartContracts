@@ -1,5 +1,5 @@
 # About the project
-SaharaChain ecosystem is a set of products aimed at enabling and facilitating the blockchain technology in the middle east and north africa. The details of the project can be found at https://SaharaChain.com.
+SaharaChain ecosystem is a set of products aimed at enabling and facilitating the blockchain technology in the Middle East and North Africa. The details of the project can be found at https://SaharaChain.com.
 
 # SmartContracts
 This repository contains the prototypes of some of the smart contracts that will be used by SaharaChain ecosystem.
