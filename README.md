@@ -5,17 +5,17 @@ SaharaChain ecosystem is a set of products aimed at enabling and facilitating th
 This repository contains the prototypes of some of the smart contracts that will be used by SaharaChain ecosystem.
 
 # List of contracts:
-## ProfitDistributorToken
+## IncentivesDistributorToken
 This is a prototype of the token that will be used by SaharaChain to distribute 20% of the transaction fees to the token holders. The token is ERC20 compatible.
 
-The profit distributing mecanism is mainly in two functions:
+The incentives distributing mechanism is mainly in two functions:
 
-**distributeProfit**: this function is called by SaharaChain in a transaction with ether = (total tokens * profit per token).
+**distributeIncentives**: this function is called by SaharaChain in a transaction with ether = (total tokens * incentives per token).
                     the parameters of this function is the Wei per token (wpt).
                     
-**claimProfit**: this function is called by token holders. The function transfers the holder's share of the profits, if there's any, to his/her address.
+**claimIncentives**: this function is called by token holders. The function transfers the holder's share of the incentives, if there's any, to his/her address.
 
-When a user transfer his/her tokens to another user, the unclaimed profits, if there are any, are not transferred and they are claimable by calling claimProfit.
+When a user transfer his/her tokens to another user, the unclaimed incentives, if there are any, are not transferred and they are claimable by calling claimIncentives.
 
 # License
 Copyright 2017, https://SaharaChain.com
